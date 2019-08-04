@@ -1,0 +1,42 @@
+<html>
+<body>
+<h3>Training Portal</h3>
+<!-- read the favorite programming language cookie -->
+<%
+	//the default if there are no cookies
+	String favLang="Java";
+	//get cookies from the browser
+	Cookie[] cookie=request.getCookies();
+	
+	if(cookie!=null){
+		for(Cookie tempCookie:cookie){
+			if("myapp.favoriteLanguage".equals(tempCookie.getName())){
+				favLang=tempCookie.getValue();
+				break;
+			}
+		}
+	}
+%>
+<h4>New Books for <%=favLang %></h4>
+<ul>
+<li>blah blah blah</li>
+<li>blah blah blah</li>
+
+</ul>
+
+<h4>Hot Topics for <%=favLang %></h4>
+<ul>
+<li>blah blah blah</li>
+<li>blah blah blah</li>
+
+</ul>
+
+<h4>New Jobs for <%=favLang %></h4>
+<ul>
+<li>blah blah blah</li>
+<li>blah blah blah</li>
+
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<body>
+<!-- Step 1. Create HTML form -->
+<form action="todo.jsp">
+	Add new Item:<input type="text" name="theItem"/>
+	<input type="submit" value="Submit">
+</form>
+
+<br>
+Item entered: <%=request.getParameter("theItem") %>
+
+
+<!-- Step.2 -->
+</body>
+</html>

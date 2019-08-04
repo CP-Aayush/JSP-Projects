@@ -1,0 +1,11 @@
+<html>
+
+<body>
+
+Converting a String to uppercase: <%=new String("Hello World").toUpperCase() %>
+
+25 multiplied by 5 is: <%= 25*5 %>
+
+</body>
+
+</html>

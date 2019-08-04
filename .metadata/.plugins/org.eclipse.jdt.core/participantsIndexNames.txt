@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+E:\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2884291122.index
+\jspdemo\src
+E:\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2692915210.index
+\jsp-session\src
+E:\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1154960370.index
+\tagdemo\src
